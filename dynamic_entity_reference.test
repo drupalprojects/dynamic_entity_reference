@@ -24,6 +24,13 @@ class DynamicEntityReferenceTest extends DrupalWebTestCase {
   protected $adminUser;
 
   /**
+   * Another user.
+   *
+   * @var \StdClass
+   */
+  protected $anotherUser;
+
+  /**
    * Modules to enable.
    *
    * @var array
